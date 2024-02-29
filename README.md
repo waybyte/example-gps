@@ -1,4 +1,4 @@
-# Logicrom SDK - GPS Library example
+# Logicrom OpenCPU SDK - GPS Library example
 
 ## How to build
 
