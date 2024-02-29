@@ -156,8 +156,8 @@ static void gps_event_callback(int event)
 	case GPS_EVENT_MOTION_START:
 		printf("Motion stop event\n");
 		break;
-	case GPS_EVENT_HARSHBREAK:
-		printf("Harsh breaking\n");
+	case GPS_EVENT_HARSHBRAKE:
+		printf("Harsh braking\n");
 		break;
 	case GPS_EVENT_OVERACCEL:
 		printf("Harsh Acceleration\n");
@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
 #else
 	config.baud = 115200;
 #endif
-	config.harshbrk = DEF_HARSHBREAK;
+	config.harshbrake = DEF_HARSHBRAKE;
 	config.harshturn = DEF_HARSHTURN;
 	config.overaccel = DEF_OVERACCEL;
 	config.speedlimit = DEF_SPEEDLIMIT;
